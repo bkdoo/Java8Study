@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="565b4f8d-4069-4a81-abe7-26acb164b465" name="Changes" comment="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습">
-      <change afterPath="$PROJECT_DIR$/TIL/람다 표현식.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TIL/람다식 - 메소드 레퍼런스.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/referenceMethod/LambdaReferenceMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/referenceMethod/SampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/shadowing/ShadowingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="565b4f8d-4069-4a81-abe7-26acb164b465" name="Changes" comment="2022 06 14 TIL&#10;JAVA8&#10;1. 람다 표현식&#10;2. 람다식 - 메소드 레퍼런스">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/java8에서 추가된 디폴트 메소드로 인한 API 변화.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/인터페이스의 디폴트, 스태틱 메소드.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method/defaultMethod/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method/defaultMethod/BasicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method/defaultMethod/OtherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method/java8defaultMethod/Java8DefaultMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -59,7 +62,7 @@
       <recent name="$PROJECT_DIR$/TIL" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaReferenceMethod">
+  <component name="RunManager" selected="Application.method.Main">
     <configuration name="LambdaReferenceMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.referenceMethod.LambdaReferenceMethod" />
       <module name="Java8Study.main" />
@@ -99,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="method.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Main" />
+      <module name="Java8Study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.method.Main" />
         <item itemvalue="Application.LambdaReferenceMethod" />
         <item itemvalue="Application.ShadowingTest" />
         <item itemvalue="Application.Main" />
@@ -116,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655127015119</updated>
       <workItem from="1655127016718" duration="6210000" />
-      <workItem from="1655133676581" duration="4882000" />
+      <workItem from="1655133676581" duration="9498000" />
     </task>
     <task id="LOCAL-00001" summary="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습">
       <created>1655133686848</created>
@@ -125,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655133686848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2022 06 14 TIL&#10;JAVA8&#10;1. 람다 표현식&#10;2. 람다식 - 메소드 레퍼런스">
+      <created>1655221380362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655221380362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습" />
+    <MESSAGE value="2022 06 14 TIL&#10;JAVA8&#10;1. 람다 표현식&#10;2. 람다식 - 메소드 레퍼런스" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 06 14 TIL&#10;JAVA8&#10;1. 람다 표현식&#10;2. 람다식 - 메소드 레퍼런스" />
   </component>
 </project>

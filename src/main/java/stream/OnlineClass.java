@@ -1,10 +1,22 @@
 package stream;
 
+import optional.Progress;
+
 public class OnlineClass {
 
     private int id;
     private String name;
     private boolean closed;
+
+    private Progress progress;
+
+    public Progress getProgress() {
+        return progress;
+    }
+
+    public void setProgress(Progress progress) {
+        this.progress = progress;
+    }
 
     public OnlineClass(int id, String name, boolean closed) {
         this.id = id;

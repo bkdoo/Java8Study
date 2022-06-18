@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="565b4f8d-4069-4a81-abe7-26acb164b465" name="Changes" comment="2022 06 15 TIL&#10;JAVA8&#10;1. 인터페이스의 디폴트, 스태틱 메소드&#10;2. 디폴트, 스태틱 메소드로 인한 API 변화">
-      <change afterPath="$PROJECT_DIR$/TIL/Stream.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/OnlineClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamTest.java" afterDir="false" />
+    <list default="true" id="565b4f8d-4069-4a81-abe7-26acb164b465" name="Changes" comment="2022 06 17 TIL&#10;JAVA8&#10;1. stream API&#10;2. stream 의 주요 method">
+      <change afterPath="$PROJECT_DIR$/TIL/Optional.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optional/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optional/Progress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/OnlineClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/OnlineClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="$PROJECT_DIR$/TIL" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamTest">
+  <component name="RunManager" selected="Application.OptionalTest">
     <configuration name="LambdaReferenceMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.referenceMethod.LambdaReferenceMethod" />
       <module name="Java8Study.main" />
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.Main" />
+    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalTest" />
       <module name="Java8Study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalTest" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.method.Main" />
         <item itemvalue="Application.LambdaReferenceMethod" />
         <item itemvalue="Application.ShadowingTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655127015119</updated>
       <workItem from="1655127016718" duration="6210000" />
-      <workItem from="1655133676581" duration="14237000" />
+      <workItem from="1655133676581" duration="18737000" />
     </task>
     <task id="LOCAL-00001" summary="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습">
       <created>1655133686848</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655304863076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022 06 17 TIL&#10;JAVA8&#10;1. stream API&#10;2. stream 의 주요 method">
+      <created>1655478521580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655478521581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="2022 06 13 TIL&#10;JAVA8&#10;1. 함수형 인터페이스의 정의&#10;2. java에서 기본으로 제공하는 함수형 인터페이스 학습" />
     <MESSAGE value="2022 06 14 TIL&#10;JAVA8&#10;1. 람다 표현식&#10;2. 람다식 - 메소드 레퍼런스" />
     <MESSAGE value="2022 06 15 TIL&#10;JAVA8&#10;1. 인터페이스의 디폴트, 스태틱 메소드&#10;2. 디폴트, 스태틱 메소드로 인한 API 변화" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 06 15 TIL&#10;JAVA8&#10;1. 인터페이스의 디폴트, 스태틱 메소드&#10;2. 디폴트, 스태틱 메소드로 인한 API 변화" />
+    <MESSAGE value="2022 06 17 TIL&#10;JAVA8&#10;1. stream API&#10;2. stream 의 주요 method" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 06 17 TIL&#10;JAVA8&#10;1. stream API&#10;2. stream 의 주요 method" />
   </component>
 </project>
